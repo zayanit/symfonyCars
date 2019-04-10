@@ -22,8 +22,12 @@ class MenuBuilder
     {
         $menu = $this->factory->createItem('root');
 
-        $menu->addChild('Home', ['route' => 'homepage']);
+        $menu->addChild('Home', ['route' => 'homepage'])
+        ->setAttribute('class', 'nav-item')
+        ->setLinkAttribute('class', 'nav-link');
         // ... add more children
+
+        $menu->setChildrenAttribute('class', 'navbar-nav mr-auto');
 
         return $menu;
     }
