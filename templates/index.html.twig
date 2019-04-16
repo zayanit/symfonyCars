@@ -1,46 +1,12 @@
 {% extends 'base.html.twig' %}
 
-
-
-    {#{% block stylesheets %}
-        <style>
-            body { background: #F5F5F5; font: 18px/1.5 sans-serif; }
-            h1, h2 { line-height: 1.2; margin: 0 0 .5em; }
-            h1 { font-size: 36px; }
-            h2 { font-size: 21px; margin-bottom: 1em; }
-            p { margin: 0 0 1em 0; }
-            a { color: #0000F0; }
-            a:hover { text-decoration: none; }
-            code { background: #F5F5F5; max-width: 100px; padding: 2px 6px; word-wrap: break-word; }
-            #wrapper { background: #FFF; margin: 1em auto; max-width: 800px; width: 95%; }
-            #container { padding: 2em; }
-            #welcome { margin-bottom: 2em; }
-            #welcome h1 span { display: block; font-size: 75%; }
-        </style>
-    {% endblock %}#}
-
-
 {% block body %}
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#">Symfony Course</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
 
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-{{ knp_menu_render('main', {'currentClass': 'active'}) }}
-    </div>
-</nav>
+    <h1><span>Welcome to</span> Symfony Cars</h1>
 
-<div id="wrapper">
-    <div id="container">
-        <div id="welcome">
-            <h1><span>Welcome to</span> Symfony Cars</h1>
-        </div>
-    </div>
-</div>
 {% endblock %}
 
+{#
 {% block title %}
     {{ 'Symfony course' }}
-{% endblock %}
+{% endblock %}#}
