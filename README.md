@@ -13,8 +13,8 @@ This is a symfony project which we try to explain symfony on a youtube channel [
     ```
    
 2. create an empty DB
-3. cd to your project and run `composer install`
-4. copy the file `.env.example` contents and create a new file called `.env`
+3. copy the file `.env.example` contents and create a new file called `.env`
+4. cd to your project and run `composer install`
 5. chang this line in `.env` file
 ```
 DATABASE_URL=mysql://db_user:db_password@127.0.0.1:3306/db_name
