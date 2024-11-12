@@ -2048,7 +2048,7 @@
                 "symfony/monolog-bundle": "^3.2",
                 "symfony/phpunit-bridge": "^3.4.19|^4.1.8",
                 "symfony/psr-http-message-bridge": "^0.3",
-                "symfony/security-bundle": "^3.3|^4.0",
+                "symfony/security-bundle": "4.4.50",
                 "symfony/twig-bundle": "^3.3|^4.0",
                 "symfony/yaml": "^3.3|^4.0",
                 "twig/twig": "3.11.2",
@@ -2057,7 +2057,7 @@
             "suggest": {
                 "symfony/expression-language": "",
                 "symfony/psr-http-message-bridge": "To use the PSR-7 converters",
-                "symfony/security-bundle": ""
+                "symfony/security-bundle": "4.4.50"
             },
             "type": "symfony-bundle",
             "extra": {
@@ -4548,7 +4548,7 @@
         },
         {
             "name": "symfony/security-bundle",
-            "version": "v4.2.4",
+            "version": "v4.4.50",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/security-bundle.git",
